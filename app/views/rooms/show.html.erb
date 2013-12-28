@@ -1,0 +1,44 @@
+<section class="room_presentation">
+	
+		<div class="eight columns offset-by-two details">
+
+			<%= image_tag @room.image(:large) %>
+			<br />
+			<h5>Room code: <span><%= @room.room_code %></span></h5>
+			<br />
+			<div class="row">
+				<h2 class="price">Week Price: £<span><%= @room.week_price %></span></h2>			
+			</div>
+			<hr class="light">
+
+			<div class="row">
+
+				<div class="three columns">
+					<p>Type: <span><%= @room.room_type %></span></p>
+					<p>Map Zone: <span><%= @room.zone %></span></p>
+					<p>Bills included? 
+					<% if @room.bills_included? %>
+					<span> Yes </span>
+					<% else %>
+					<span> No </span>
+					<% end %>
+					</p>				
+					<p>Internet: <span><%= @room.internet %></span></p>
+				</div>
+
+				<div class="four columns">
+					<p>Transport: <span><%= @room.transport %></span></p>
+					<p>Neighborhood: <span><%= @room.neighborhood %></span></p>
+					<p>Location: <span><%= @room.location %></span></p>					
+				</div>
+				
+			</div>
+
+			<h4>Description:</h4>
+			<p><%= @room.description %></p>
+
+		</div>
+
+
+
+</section>

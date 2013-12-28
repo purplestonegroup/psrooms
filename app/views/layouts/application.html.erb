@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-  <title>Purple Stone Group</title>
+  <title>Purple Stone Rooms</title>
   <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
@@ -12,9 +12,9 @@
 
 	<header class="container">
 		<div class="row">
-			<h1 class="three columns">
+			<h1 id="top" class="three columns">
 				<%= link_to(root_path) do %>
-				<%= image_tag "logo_psg.png" %>
+				<%= image_tag "logo_psr.png" %>
 				<% end %>
 			</h1>
 
@@ -76,6 +76,10 @@
 				<%= yield %>
 			</article>
 
+			<p id="back-top">
+				<a href="#top"><span></span>Back to top</a>
+			</p>
+
 			<footer>
 				<div class="row">
 					<div class="footer_one">
@@ -106,7 +110,7 @@
 				<div class="footer_two">
 					<h1 class="three columns">
 						<%= link_to(root_path) do %>
-						<%= image_tag "logo_psg_white.png" %>
+						<%= image_tag "logo_psr_white.png" %>
 						<% end %>
 					</h1>
 
@@ -126,10 +130,29 @@
 						</div>
 
 					</div>
-					<div class="row">
-						
-					</div>
 					
+				</div>
+				
+				<div class="row ourcompanies">
+
+					<div class="twelve columns">
+						<p><%= t('.ourcompanies') %></p>
+						<br />
+					</div>
+
+					<div class="three columns">
+						<a href="#"><%= image_tag "logo_psg_white.png", width: '150' %></a>
+					</div>
+					<div class="three columns">
+						<a href="#"><%= image_tag "logo_psca_white.png", width: '185' %></a>
+					</div>
+					<div class="three columns">
+						<a href="#"><%= image_tag "logo_psa_white.png", width: '150' %></a>
+					</div>
+					<div class="three columns">
+						<a href="#"><%= image_tag "logo_psm_white.png", width: '150' %></a>
+					</div>
+
 				</div>
 
 				<div class="row copy">
@@ -150,11 +173,37 @@
 $(document).ready(function(){
 	$('#menu').slicknav();
 	$('.bxslider').bxSlider({
-		mode: 'fade',
 		auto: true,
 		autostart: true
 		});
 });
+</script>
+<script type="text/javascript">
+	$(document).ready(function(){
+
+		// hide #back-top first
+		$("#back-top").hide();
+		
+		// fade in #back-top
+		$(function () {
+			$(window).scroll(function () {
+				if ($(this).scrollTop() > 100) {
+					$('#back-top').fadeIn();
+				} else {
+					$('#back-top').fadeOut();
+				}
+			});
+
+			// scroll body to 0px on click
+			$('#back-top a').click(function () {
+				$('body,html').animate({
+					scrollTop: 0
+				}, 800);
+				return false;
+			});
+		});
+
+	});
 </script>
 </body>
 </html>

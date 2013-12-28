@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131208231443) do
+ActiveRecord::Schema.define(version: 20131217131420) do
 
   create_table "active_admin_comments", force: true do |t|
     t.string   "namespace"
@@ -46,6 +46,17 @@ ActiveRecord::Schema.define(version: 20131208231443) do
   add_index "admin_users", ["email"], name: "index_admin_users_on_email", unique: true
   add_index "admin_users", ["reset_password_token"], name: "index_admin_users_on_reset_password_token", unique: true
 
+  create_table "bookings", force: true do |t|
+    t.integer  "room_id"
+    t.string   "name"
+    t.string   "email"
+    t.string   "phone"
+    t.string   "address"
+    t.string   "post_code"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "contacts", force: true do |t|
     t.string   "name"
     t.string   "email"
@@ -66,6 +77,34 @@ ActiveRecord::Schema.define(version: 20131208231443) do
     t.integer  "image_file_size"
     t.datetime "image_updated_at"
     t.integer  "rank"
+  end
+
+  create_table "room_images", force: true do |t|
+    t.integer  "room_id"
+    t.string   "image_file_name"
+    t.string   "image_content_type"
+    t.integer  "image_file_size"
+    t.datetime "image_updated_at"
+    t.text     "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "rooms", force: true do |t|
+    t.string   "room_code"
+    t.string   "room_type"
+    t.string   "zone"
+    t.string   "neighborhood"
+    t.decimal  "week_price",     precision: 8, scale: 2
+    t.text     "description"
+    t.boolean  "bills_included",                         default: false
+    t.string   "internet"
+    t.string   "transport"
+    t.string   "location"
+    t.float    "latitude"
+    t.float    "longitude"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
 end

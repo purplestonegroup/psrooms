@@ -7,9 +7,15 @@ Group::Application.routes.draw do
   scope '(:locale)' do
     resources :posts
     resources :contacts
+    
+    resources :rooms do
+      resources :bookings
+      resources :room_images
+    end
 
-    root 'posts#home'
+    root 'rooms#index'
     get "/home" => "posts#home"
+    get "/blog" => "posts#index"
     get "/contact" => "contacts#new"
 
     # static pages

@@ -2,10 +2,21 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
 
 // Vars
-$primaryColour: #7e4e24;
+$primaryColour: #e94e1b;
 $secondaryColour: #421612;
 $bgColour: #ffffff;
 $fontLato: 'Lato', sans-serif;
+
+@mixin mainnav-hover($fromvalue, $tovalue) {
+  background: -webkit-gradient(linear, left top, left bottom, from($fromvalue), to($tovalue));
+  background: -webkit-linear-gradient($fromvalue, $tovalue); /* For Safari */
+  background: -o-linear-gradient($fromvalue, $tovalue); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient($fromvalue, $tovalue); /* For Firefox 3.6 to 15 */
+  background: -ms-linear-gradient($fromvalue, $tovalue);
+  background: linear-gradient($fromvalue, $tovalue); /* Standard syntax */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#{$fromvalue}', endColorstr='#{$tovalue}');
+  zoom: 1;
+}
 
 body {
   background: #e6e6e6  url(image_path('body_background.jpg')) repeat-x top;
@@ -388,7 +399,7 @@ nav a {
 margin-top: -20px;
 }
 
-.contact {
+.contact, .room_presentation {
   margin-top: 30px;
   h2 {
     font-size: 1.7em;
@@ -406,6 +417,14 @@ margin-top: -20px;
   }
   p {
     margin-bottom: 25px;
+  }
+  span {
+    color: $secondaryColour;
+    font-weight: 400;
+    padding-left: 10px;
+  }
+  .price {
+    float: right;
   }
 }
 
@@ -597,7 +616,7 @@ font-weight: 300;
 
 .footer_two {
 margin-top: -20px;
-padding-top: 30px;
+padding: 40px 0 60px 0;
 overflow: hidden;
 background: -webkit-gradient(linear, left top, left bottom, from($primaryColour), to($secondaryColour));
 background: -webkit-linear-gradient($primaryColour, $secondaryColour); /* For Safari */
@@ -607,10 +626,24 @@ background: -ms-linear-gradient($primaryColour, $secondaryColour);
 background: linear-gradient($primaryColour, $secondaryColour); /* Standard syntax */
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7e4e24', endColorstr='#421612');
 zoom: 1;
-border-bottom: 2px solid $primaryColour;
   h2, p {
     color: #ffffff;
     font-weight: 300;
+  }
+}
+
+.ourcompanies {
+  padding: 20px 0 30px 0;
+  border-top: 1px dotted #fff;
+  border-bottom: 2px solid $primaryColour;
+  height: 100%;
+  background-color: $secondaryColour;
+  margin-bottom: 0;
+  .columns {
+    padding: 10px 0 10px 20px;
+  }
+  p {
+    text-align: center;
   }
 }
 
@@ -765,15 +798,9 @@ ul#menu_footer {
   }
 
   nav li a:hover, nav li a.active, nav li a:focus {
-  background: -webkit-gradient(linear, left top, left bottom, from($secondaryColour), to($primaryColour));
-  background: -webkit-linear-gradient($secondaryColour, $primaryColour); /* For Safari */
-  background: -o-linear-gradient($secondaryColour, $primaryColour); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient($secondaryColour, $primaryColour); /* For Firefox 3.6 to 15 */
-  background: -ms-linear-gradient($secondaryColour, $primaryColour);
-  background: linear-gradient($secondaryColour, $primaryColour); /* Standard syntax */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#421612', endColorstr='#7e4e24');
-  zoom: 1;
+  @include mainnav-hover(#000, #e94e1b);
   }
+
 }
 
 /* Large desktop */
@@ -801,15 +828,9 @@ ul#menu_footer {
   }
 
   nav li a:hover, nav li a.active, nav li a:focus {
-  background: -webkit-gradient(linear, left top, left bottom, from($secondaryColour), to($primaryColour));
-  background: -webkit-linear-gradient($secondaryColour, $primaryColour); /* For Safari */
-  background: -o-linear-gradient($secondaryColour, $primaryColour); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient($secondaryColour, $primaryColour); /* For Firefox 3.6 to 15 */
-  background: -ms-linear-gradient($secondaryColour, $primaryColour);
-  background: linear-gradient($secondaryColour, $primaryColour); /* Standard syntax */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#421612', endColorstr='#7e4e24');
-  zoom: 1;
+  @include mainnav-hover(#000, #e94e1b);
   }
+
   .header_right_side {
     padding-left: 80px; 
   }
@@ -846,15 +867,9 @@ ul#menu_footer {
   }
 
   nav li a:hover, nav li a.active, nav li a:focus {
-  background: -webkit-gradient(linear, left top, left bottom, from($secondaryColour), to($primaryColour));
-  background: -webkit-linear-gradient($secondaryColour, $primaryColour); /* For Safari */
-  background: -o-linear-gradient($secondaryColour, $primaryColour); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient($secondaryColour, $primaryColour); /* For Firefox 3.6 to 15 */
-  background: -ms-linear-gradient($secondaryColour, $primaryColour);
-  background: linear-gradient($secondaryColour, $primaryColour); /* Standard syntax */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#421612', endColorstr='#7e4e24');
-  zoom: 1;
+  @include mainnav-hover(#000, #e94e1b);
   }
+
   .header_right_side {
     padding-left: 80px; 
   }
@@ -888,15 +903,9 @@ ul#menu_footer {
   }
 
   nav li a:hover, nav li a.active, nav li a:focus {
-  background: -webkit-gradient(linear, left top, left bottom, from($secondaryColour), to($primaryColour));
-  background: -webkit-linear-gradient($secondaryColour, $primaryColour); /* For Safari */
-  background: -o-linear-gradient($secondaryColour, $primaryColour); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient($secondaryColour, $primaryColour); /* For Firefox 3.6 to 15 */
-  background: -ms-linear-gradient($secondaryColour, $primaryColour);
-  background: linear-gradient($secondaryColour, $primaryColour); /* Standard syntax */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#421612', endColorstr='#7e4e24');
-  zoom: 1;
+  @include mainnav-hover(#000, #e94e1b);
   }
+
   .header_right_side {
     padding-left: 80px; 
   }

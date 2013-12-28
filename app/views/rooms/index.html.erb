@@ -1,0 +1,24 @@
+<div class="ten columns offset-by-one">
+
+	<div class="row">
+
+		<% @rooms.each do |room| %>
+		
+			<div class="three columns">
+
+				<div class="details">
+					<%= image_tag room.image(:medium) %>
+					<h2><%= link_to room.room_code, room_path(room) %></h2>
+					<p><%= room.room_type %></p>
+					<p><%= room.zone %></p>
+					<p><%= room.neighborhood %></p>
+					<p><%= room.week_price %></p>
+				</div>
+
+			</div>
+
+		<% end %>
+
+	</div>
+
+</div>
