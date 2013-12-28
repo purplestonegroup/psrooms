@@ -1,0 +1,12 @@
+<%= simple_form_for new_room_booking_path(@room) do |f| %>
+	
+	<%= f.input :name, :label => t('.name'), :placeholder => t('.name') %>
+	<%= f.input :email, :label => t('.email'), :placeholder => t('.email') %>
+
+	<%= f.input :phone, as: :string, :label => t('.phone'), :placeholder => t('.phone') %>
+	<%= f.input :address, :label => t('.address'), :placeholder => t('.address') %>
+	<%= f.input :post_code, :label => t('.post_code'), :placeholder => t('.post_code') %>
+	
+	<%= f.button :submit, t('.send') %>
+
+<% end %>

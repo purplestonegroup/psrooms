@@ -13,5 +13,18 @@ ActiveAdmin.register Room do
   #  permitted << :other if resource.something?
   #  permitted
   # end
+
+
+  index do
+    column :id
+    column :room_code
+    column :room_type
+    column :zone
+    column :neighborhood
+    column :updated_at
+    column :week_price
+    column :location
+    actions
+  end
   
 end

@@ -2,12 +2,19 @@
 	
 		<div class="eight columns offset-by-two details">
 
-			<%= image_tag @room.image(:large) %>
-			<br />
+			<hr class="light">
 			<h5>Room code: <span><%= @room.room_code %></span></h5>
 			<br />
+
+			<%= image_tag @room.image(:large) %>
+			<br />
+			<br />
+
 			<div class="row">
-				<h2 class="price">Week Price: £<span><%= @room.week_price %></span></h2>			
+				<div class="price">
+					<h2>Week Price: £<span><%= @room.week_price %></span></h2>
+					<%= link_to "I Wanna Book it Now!", new_room_booking_path(@room), class: "button" %>
+				</div>
 			</div>
 			<hr class="light">
 

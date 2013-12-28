@@ -59,9 +59,6 @@ gem "activeadmin", github: "gregbell/active_admin"
 gem "paperclip"
 gem "aws-sdk"
 
-#add recaptcha
-gem "recaptcha", require: "recaptcha/rails"
-
 # add the slider
 gem 'bxslider-rails'
 

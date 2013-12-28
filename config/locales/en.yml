@@ -31,3 +31,12 @@ en:
    new:
     title_html: "Please, feel free to send us your enquires.<br />We'll reply to you as soon as possible."
     subtitle: "Below you can find our location in Google Maps."
+
+  bookings:
+   form:
+    name: "Name"
+    email: "E-mail"
+    phone: "Phone"
+    address: "Address"
+    post_code: "Post Code"
+    send: "SEND"
