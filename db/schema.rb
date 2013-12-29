@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131217131420) do
+ActiveRecord::Schema.define(version: 20131229134753) do
 
   create_table "active_admin_comments", force: true do |t|
     t.string   "namespace"
@@ -105,6 +105,7 @@ ActiveRecord::Schema.define(version: 20131217131420) do
     t.float    "longitude"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.boolean  "is_available",                           default: false
   end
 
 end

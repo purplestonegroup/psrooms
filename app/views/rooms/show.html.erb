@@ -13,7 +13,13 @@
 			<div class="row">
 				<div class="price">
 					<h2>Week Price: £<span><%= @room.week_price %></span></h2>
+					<% if @room.is_available? %>
 					<%= link_to "I Wanna Book it Now!", new_room_booking_path(@room), class: "button" %>
+					<% else %>
+					<span class="fa-stack fa-lg no"><i class="fa fa-ban fa-stack-2x"></i> </span>
+					<span>No Available at the moment.</span>
+					<% end %>
+					
 				</div>
 			</div>
 			<hr class="light">

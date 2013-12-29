@@ -31,3 +31,12 @@ es:
    new:
     title_html: "Por favor, no dude en enviarnos sus consultas. <br /> Le contestaremos en la mayor brevedad posible."
     subtitle: "A continuación puede encontrar nuestra ubicación en Google Maps."
+
+  bookings:
+   form:
+    name: "Nombre"
+    email: "E-mail"
+    phone: "Teléfono"
+    address: "Dirección"
+    post_code: "Código Postal"
+    send: "Pagar a través de PayPal"
