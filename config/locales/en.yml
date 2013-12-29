@@ -4,16 +4,19 @@ en:
    application:
     slogan_html: "Lovely Rooms<br />for Lovely People"
     home: "HOME"
-    investment: "INVESTMENT"
-    partnerus: "PARTNER WITH US"
-    ourcompanies: "OUR COMPANIES"
+    rooms: "ROOMS"
+    ouraccomodation: "OUR ACCOMODATION"
+    chooseus: "WHY CHOOSE US?"
+    community: "COMMUNITY"
+    resources: "RESOURCES"
     contact: "CONTACT"
     aboutustitle: "About Us"
-    whatis: "What is Purple Stone Group?"
+    whatis: "What is Purple Stone Rooms?"
     aboutustext: "Purple Stone Group is a company specialized in real estate, education, marketing and multimedia. The business group, through it's independent limited companies offers a lot of products and services that reflect the high satisfaction of the costumer."
     affiliatetitle: "Join Our Affiliate Programme Now!"
     affiliatetext: "By sending an email to us you can Join to our Free Affiliate Programme and earn generous commissions from sales generated from referrals !"
     affiliatebutton: "JOIN US"
+    ourcompanies: "Our Companies"
 
   posts:
    home:

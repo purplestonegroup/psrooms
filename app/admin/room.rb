@@ -19,7 +19,7 @@ ActiveAdmin.register Room do
     column :id
     column :room_code
     column :room_type
-    column :zone
+    column :is_available
     column :neighborhood
     column :updated_at
     column :week_price

@@ -1,0 +1,62 @@
+<section class="video_form">
+
+  <div class="eight columns slide">
+    <ul class="bxslider">
+      <li>
+        <h2>Want to Get High Return On Your PROPERTY Investment?</h2>
+        <div class="transp"></div>
+        <%= image_tag "slide_property_psg.jpg" %>
+      </li>
+      <li>
+        <h2>Purple Stone Group is Looking For Investors to PARTNER With Us</h2>
+        <%= image_tag "slide_partner_psg.jpg" %>
+        <div class="transp"></div>
+      </li>
+      <li>
+        <h2>Are You Landlord, Interested in RENTING Out Your Property?</h2>
+        <%= image_tag "slide_renting_psg.jpg" %>
+        <div class="transp"></div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="four columns aweberform">
+    <h2><%= t('.awebertitle') %></h2>
+    <h3><%= t('.awebersubtitle') %></h3>
+    <script type="text/javascript" src="http://forms.aweber.com/form/87/353488187.js"></script>
+  </div>
+
+</section>
+
+<div class="rooms_list">
+
+	<div class="row">
+
+		<% @available_rooms.each do |room| %>
+		
+			<div class="four columns">
+
+				<div class="rooms_list_details">
+					<hr>
+					<br />
+					<h5>Room Code: <span><%= room.room_code %></span></h5>
+					<br />
+					<%= image_tag room.image(:medium) %>
+					<br />
+					<br />
+					<h3 class="price">Week Price: £<%= room.week_price %></h3>
+					<br />
+					<br />
+					<p>Type: <span><%= room.room_type %></span>
+					<br />Map Zone: <span><%= room.zone %></span>
+					<br />Neighborhood: <span><%= room.neighborhood %></span></p>
+					<%= link_to "See More Details", room_path(room), class: "button" %>
+				</div>
+
+			</div>
+
+		<% end %>
+
+	</div>
+
+</div>

@@ -4,16 +4,19 @@ es:
    application:
     slogan_html: "Agradables Habitaciones<br />para Gente Encantadora"
     home: "INICIO"
-    investment: "INVERSIÓN"
-    partnerus: "ASÓCIESE CON NOSOTROS"
-    ourcompanies: "NUESTRAS EMPRESAS"
+    rooms: "HABITACIONES"
+    ouraccomodation: "NUESTROS ALOJAMIENTOS"
+    chooseus: "¿POR QUÉ NOSOTROS?"
+    community: "COMUNIDAD"
+    resources: "RECURSOS"
     contact: "CONTACTO"
     aboutustitle: "Sobre Nosotros"
-    whatis: "Que es Purple Stone Group?"
+    whatis: "Que es Purple Stone Rooms?"
     aboutustext: "Purple Stone Group es una empresa especializada en el sector inmobiliario, la educación, marketing y multimedia. El grupo empresarial, a través de su sociedades anónimas independientes ofrece una gran cantidad de productos y servicios que reflejan el alto grado de satisfacción del cliente."
     affiliatetitle: "Únete a nuestro Programa de Afiliados Ahora!"
     affiliatetext: "Envíenos un correo electrónico, usted puede unirse a nuestro programa de afiliados gratis y ganar grandes comisiones por las ventas generadas a partir de sus referencias!"
     affiliatebutton: "ÚNETE A NOSOTROS"
+    ourcompanies: "Nuestras Empresas"
 
   posts:
    home:

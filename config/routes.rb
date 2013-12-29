@@ -13,7 +13,7 @@ Group::Application.routes.draw do
       resources :room_images
     end
 
-    root 'rooms#index'
+    root 'rooms#home'
     get "/home" => "posts#home"
     get "/blog" => "posts#index"
     get "/contact" => "contacts#new"
