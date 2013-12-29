@@ -12,16 +12,16 @@ es:
     contact: "CONTACTO"
     aboutustitle: "Sobre Nosotros"
     whatis: "Que es Purple Stone Rooms?"
-    aboutustext: "Purple Stone Group es una empresa especializada en el sector inmobiliario, la educación, marketing y multimedia. El grupo empresarial, a través de su sociedades anónimas independientes ofrece una gran cantidad de productos y servicios que reflejan el alto grado de satisfacción del cliente."
+    aboutustext: "Somos una empresa privada con sede en Londres. Nos especializamos en el suministro de alojamiento para las personas más jóvenes que quieren mejorar su Inglés y encontrar un puesto de trabajo, así como disfrutar de la ciudad. Ofrecemos habitaciones completamente amuebladas y hacemos todo lo posible para garantizar una excelente y cómoda estancia."
     affiliatetitle: "Únete a nuestro Programa de Afiliados Ahora!"
     affiliatetext: "Envíenos un correo electrónico, usted puede unirse a nuestro programa de afiliados gratis y ganar grandes comisiones por las ventas generadas a partir de sus referencias!"
     affiliatebutton: "ÚNETE A NOSOTROS"
     ourcompanies: "Nuestras Empresas"
 
-  posts:
-   home:
-    awebertitle: "Consigue ya tus informes GRATIS"
-    awebersubtitle: "Incremente el retorno de su inversión!"
+  shared:
+   aweberform:
+    awebertitle: "Conoce la Disponibilidad de nuestras Habitaciones"
+    awebersubtitle: "Directo a tu correo!"
 
   contacts:
    form:

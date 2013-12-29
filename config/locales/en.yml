@@ -12,16 +12,16 @@ en:
     contact: "CONTACT"
     aboutustitle: "About Us"
     whatis: "What is Purple Stone Rooms?"
-    aboutustext: "Purple Stone Group is a company specialized in real estate, education, marketing and multimedia. The business group, through it's independent limited companies offers a lot of products and services that reflect the high satisfaction of the costumer."
+    aboutustext: "We are a private company based in London. We specialize in providing accommodation for younger people wanting to improve their English and find a job as well as enjoying the city. We provide fully furnished rooms and do everything we can to guarantee an excellent and comfortable stay."
     affiliatetitle: "Join Our Affiliate Programme Now!"
     affiliatetext: "By sending an email to us you can Join to our Free Affiliate Programme and earn generous commissions from sales generated from referrals !"
     affiliatebutton: "JOIN US"
     ourcompanies: "Our Companies"
 
-  posts:
-   home:
-    awebertitle: "Grab Your FREE Report"
-    awebersubtitle: "Maximise Your Return On Investment!"
+  shared:
+   aweberform:
+    awebertitle: "Want to know Our Rooms Availability?"
+    awebersubtitle: "Straight to Your Inbox!"
 
   contacts:
    form:

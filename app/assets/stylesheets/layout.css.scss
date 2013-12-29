@@ -432,7 +432,10 @@ margin-top: -20px;
 }
 
 .rooms_list_details {
-  margin: 20px 25px 0 25px;
+  padding: 10px 25px 20px 25px;
+  margin-bottom: 20px;
+  background-color: #f0e68c;
+  border-top: 8px solid $primaryColour;
 }
 
 section.video_form {
