@@ -2,7 +2,7 @@ en:
 
   layouts:
    application:
-    slogan: "Get High Returns on Your Investments"
+    slogan_html: "Lovely Rooms<br />for Lovely People"
     home: "HOME"
     investment: "INVESTMENT"
     partnerus: "PARTNER WITH US"

@@ -1,4 +1,4 @@
-<%= simple_form_for new_room_booking_path(@room) do |f| %>
+<%= simple_form_for [@room, @booking] do |f| %>
 	
 	<%= f.input :name, :label => t('.name'), :placeholder => t('.name') %>
 	<%= f.input :email, :label => t('.email'), :placeholder => t('.email') %>
@@ -7,6 +7,6 @@
 	<%= f.input :address, :label => t('.address'), :placeholder => t('.address') %>
 	<%= f.input :post_code, :label => t('.post_code'), :placeholder => t('.post_code') %>
 	
-	<%= f.button :submit, t('.send') %>
+	<%= f.button :submit, t('.send')  %>
 
 <% end %>

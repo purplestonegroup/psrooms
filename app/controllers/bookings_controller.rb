@@ -24,6 +24,9 @@ class BookingsController < ApplicationController
 
   end
 
+  def booking_params
+  	params.require(:booking).permit(:name, :email, :phone, :address, :post_code)
+  end
 
   def get_room
   	@room = Room.find(params[:room_id])
