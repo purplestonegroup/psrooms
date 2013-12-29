@@ -149,7 +149,13 @@ note {
   ul.square { list-style: square outside; }
   ul.circle { list-style: circle outside; }
   ul.disc { list-style: disc outside; }
-
+  ol {
+    margin-left: 10px;
+    color: #2f4f4f;
+    list-style-type:decimal-leading-zero;
+    list-style-position:inside;
+  }
+  
   li {
     padding-top: 5px;
     padding-bottom: 5px;
@@ -399,7 +405,7 @@ nav a {
 margin-top: -20px;
 }
 
-.contact, .room_presentation, .rooms_list, .bookings {
+.contact, .room_presentation, .rooms_list, .bookings, .accommodation, .chooseus, .community, .resources {
   margin-top: 30px;
   h2 {
     font-size: 1.7em;
