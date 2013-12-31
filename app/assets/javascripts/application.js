@@ -12,4 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require leaflet
+//= require chosen.jquery.min
+//= require global
 //= require_tree .

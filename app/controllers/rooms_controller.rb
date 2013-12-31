@@ -20,8 +20,7 @@ class RoomsController < ApplicationController
   		@available_rooms = @rooms.where(is_available: true)
   	end
   end
-
-
+  
 
   def get_room
   	@rooms = Room.all

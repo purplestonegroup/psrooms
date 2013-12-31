@@ -3,6 +3,9 @@ class Room < ActiveRecord::Base
 	has_many :room_images
 	has_many :bookings
 
+	geocoded_by :location, latitude: :latitude, longitude: :longitude
+	after_validation :geocode
+
 	def image(size)
 		# find the first image in room_images
 		if room_images.any?

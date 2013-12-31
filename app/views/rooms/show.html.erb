@@ -51,7 +51,11 @@
 			<p><%= @room.description %></p>
 
 		</div>
-
-
+		
+		<div class="row">
+			<div class="ten columns offset-by-one">
+				<div class="map" data-lat="<%= @room.latitude %>" data-long="<%= @room.longitude %>"></div>
+			</div>
+		</div>
 
 </section>

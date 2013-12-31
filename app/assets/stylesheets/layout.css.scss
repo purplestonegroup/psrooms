@@ -155,7 +155,7 @@ note {
     list-style-type:decimal-leading-zero;
     list-style-position:inside;
   }
-  
+
   li {
     padding-top: 5px;
     padding-bottom: 5px;
@@ -442,6 +442,12 @@ margin-top: -20px;
   margin-bottom: 20px;
   background-color: #f0e68c;
   border-top: 8px solid $primaryColour;
+}
+
+.map {
+  height: 300px;
+  border-top: 5px solid $secondaryColour;
+  border-bottom: 5px solid $secondaryColour;
 }
 
 section.video_form {
