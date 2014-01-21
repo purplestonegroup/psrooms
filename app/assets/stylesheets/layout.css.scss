@@ -458,7 +458,7 @@ background: -o-linear-gradient($primaryColour, $secondaryColour); /* For Opera 1
 background: -moz-linear-gradient($primaryColour, $secondaryColour); /* For Firefox 3.6 to 15 */
 background: -ms-linear-gradient($primaryColour, $secondaryColour);
 background: linear-gradient($primaryColour, $secondaryColour); /* Standard syntax */
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7e4e24', endColorstr='#421612');
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#{$primaryColour}', endColorstr='#{$secondaryColour}');
 zoom: 1;
 border-bottom: 8px solid $primaryColour;
 }
@@ -645,7 +645,7 @@ background: -o-linear-gradient($primaryColour, $secondaryColour); /* For Opera 1
 background: -moz-linear-gradient($primaryColour, $secondaryColour); /* For Firefox 3.6 to 15 */
 background: -ms-linear-gradient($primaryColour, $secondaryColour);
 background: linear-gradient($primaryColour, $secondaryColour); /* Standard syntax */
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7e4e24', endColorstr='#421612');
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#{$primaryColour}', endColorstr='#{$secondaryColour}');
 zoom: 1;
   h2, p {
     color: #ffffff;
