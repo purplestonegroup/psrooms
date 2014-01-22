@@ -29,7 +29,7 @@
 					</span> 0207 247 1440</phone>
 					<div>
 					<div id="languages">
-						<%= form_tag home_path, class: 'locale', :method => :get do %>
+						<%= form_tag root_path, class: 'locale', :method => :get do %>
 							<%= select_tag 'set_locale',
 								options_for_select(LANGUAGES, I18n.locale.to_s),
 								onchange: 'this.form.submit()' %>
@@ -58,7 +58,7 @@
 				<li><%= active_link_to t('.ouraccommodation'), accommodation_path, class: "link" %></li>
 				<li><%= active_link_to t('.chooseus'), chooseus_path, class: "link" %></li>
 				<li><%= active_link_to t('.community'), community_path, class: "link" %></li>
-				<li><%= active_link_to "BLOG", posts_path, class: "link" %></li>
+				<li><%= active_link_to "BLOG", categories_path, class: "link" %></li>
 				<li><%= active_link_to t('.resources'), resources_path, class: "link" %></li>
 				<li><%= active_link_to t('.contact'), new_contact_path, class: "last" %></li>
 			</ul>
@@ -104,7 +104,7 @@
 						<li><%= active_link_to t('.ouraccommodation'), accommodation_path, class: "link" %></li>
 						<li><%= active_link_to t('.chooseus'), chooseus_path, class: "link" %></li>
 						<li><%= active_link_to t('.community'), community_path, class: "link" %></li>
-						<li><%= active_link_to "BLOG", posts_path, class: "link" %></li>
+						<li><%= active_link_to "BLOG", categories_path, class: "link" %></li>
 						<li><%= active_link_to t('.resources'), resources_path, class: "link" %></li>
 						<li><%= active_link_to t('.contact'), new_contact_path, class: "last" %></li>
 					</ul>

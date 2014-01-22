@@ -405,6 +405,21 @@ nav a {
 margin-top: -20px;
 }
 
+/* #Search box
+================================================== */
+.input-append {
+  display: inline-block;
+  .search_input {
+    width: 70%;
+    float: left;
+  }
+  button {
+    margin: -3px 0 0 0;
+    padding: 4px 7px;
+  }
+}
+/* ================================================== */
+
 .contact, .room_presentation, .rooms_list, .bookings, .accommodation, .chooseus, .community, .resources {
   margin-top: 30px;
   h2 {
@@ -445,9 +460,13 @@ margin-top: -20px;
 }
 
 .map {
-  height: 300px;
+  #height: 300px;
   border-top: 5px solid $secondaryColour;
   border-bottom: 5px solid $secondaryColour;
+}
+
+iframe {
+  vertical-align: bottom;
 }
 
 section.video_form {
