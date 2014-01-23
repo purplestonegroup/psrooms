@@ -29,6 +29,15 @@ body {
 
 p {
   font-size: 1.1em;  
+  padding: 10px 0 10px 0;
+}
+
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
 }
 
 a {
@@ -420,7 +429,7 @@ margin-top: -20px;
 }
 /* ================================================== */
 
-.contact, .room_presentation, .rooms_list, .bookings, .accommodation, .chooseus, .community, .resources {
+.contact, .room_presentation, .rooms_list, .bookings, .accommodation, .chooseus, .community, .resources, .terms, .privacy {
   margin-top: 30px;
   h2 {
     font-size: 1.7em;
@@ -716,7 +725,7 @@ ul#menu_footer {
   body {
     padding-top: 40px;
   }
-  header h2, .footer_two h2 {
+  .slogan {
   margin: 15px 0;
   padding: 20px;
   line-height: 1em;
@@ -753,7 +762,7 @@ ul#menu_footer {
   body {
     padding-top: 40px;
   }
-  header h2, .footer_two h2 {
+  .slogan {
   margin: 15px 0;
   padding: 20px;
   line-height: 1em;
@@ -781,11 +790,11 @@ ul#menu_footer {
   body {
     padding-top: 40px;
   }
-  header h2, .footer_two h2 {
+  .slogan {
   border-left: 1px solid #C0C0C0;
   margin-top: 15px;
   padding: 12px 20px;
-  font-size: 1.2em;
+  font-size: 1.8em;
   line-height: 1em;
   }
   /* #menu is the original menu */
@@ -819,11 +828,11 @@ ul#menu_footer {
   body {
     padding-top: 0;
   }
-  header h2, .footer_two h2 {
+  .slogan {
   border-left: 1px solid #C0C0C0;
   margin-top: 15px;
   padding: 12px 20px;
-  font-size: 1.5em;
+  font-size: 1.8em;
   line-height: 1.2em;
   }
   .slicknav_menu {
@@ -849,11 +858,11 @@ ul#menu_footer {
   body {
     padding-top: 0;
   }
-  header h2, .footer_two h2 {
+  .slogan {
   border-left: 1px solid #C0C0C0;
   margin-top: 15px;
   padding: 12px 20px;
-  font-size: 1em;
+  font-size: 1.8em;
   line-height: 1em;
   }
   .slicknav_menu {
@@ -888,11 +897,11 @@ ul#menu_footer {
   body {
     padding-top: 0;
   }
-  header h2, .footer_two h2 {
+  .slogan {
   border-left: 1px solid #C0C0C0;
   margin-top: 15px;
   padding: 12px 20px;
-  font-size: 1.2em;
+  font-size: 1.8em;
   line-height: 1.2em;
   }
   .slicknav_menu {
@@ -924,11 +933,11 @@ ul#menu_footer {
   body {
     padding-top: 0;
   }
-  header h2, .footer_two h2 {
+  .slogan {
   border-left: 1px solid #C0C0C0;
   margin-top: 15px;
   padding: 12px 20px;
-  font-size: 1.2em;
+  font-size: 1.8em;
   line-height: 1.2em;
   }
   .slicknav_menu {

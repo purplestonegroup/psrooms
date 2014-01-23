@@ -62,6 +62,8 @@ gem "aws-sdk"
 # add the slider
 gem 'bxslider-rails'
 
+# add the possibility to format the text of posts
+gem 'rdiscount'
 
 # version of ruby
 ruby "2.0.0"

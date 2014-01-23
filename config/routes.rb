@@ -27,7 +27,6 @@ Group::Application.routes.draw do
     get "/why-choose-us" => "contents#chooseus", as: "chooseus"
     get "/community" => "contents#community"
     get "/resources" => "contents#resources"
-    get "/site-map" => "contents#sitemap", as: "sitemap"
     get "/terms-and-conditions" => "contents#terms", as: "terms"
     get "/privacy" => "contents#privacy"
 
