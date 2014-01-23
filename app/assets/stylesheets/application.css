@@ -10,6 +10,7 @@
  *
  *= require reset
  *= require skeleton
+ *= require leaflet
  *= require layout
  *= require slicknav
  *= require jquery.bxslider
