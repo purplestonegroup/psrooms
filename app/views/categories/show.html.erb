@@ -1,6 +1,6 @@
 <section class="eight columns">
 
-	<% @category.posts.each do |post| %>
+	<% @category.posts.order('created_at desc').each do |post| %>
 
 		<div class="post_details">
 			<h2><%= link_to post.title, category_post_path(@category, post) %></h2>

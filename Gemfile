@@ -65,6 +65,10 @@ gem 'bxslider-rails'
 # add the possibility to format the text of posts
 gem 'rdiscount'
 
+#add kjvarga/sitemap_generator 
+gem 'sitemap_generator'
+
+
 # version of ruby
 ruby "2.0.0"
 
