@@ -19,7 +19,7 @@ Group::Application.routes.draw do
       resources :room_images
     end
 
-    get "/contact" => "contacts#new"
+    get "/contact" => "contacts#aweberform", as: "aweberform"
     get "/posts/search" => "posts#search"
 
     # static pages

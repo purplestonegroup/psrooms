@@ -24,16 +24,32 @@ es:
     awebersubtitle: "Directo a tu correo!"
 
   contacts:
-   form:
-    name: "Nombre"
-    email: "E-mail"
-    phone: "Teléfono"
-    subject: "Asunto"
-    comments: "Comentarios"
-    send: "ENVIAR"
-   new:
-    title_html: "Por favor, no dude en enviarnos sus consultas. <br /> Le contestaremos en la mayor brevedad posible."
-    subtitle: "A continuación puede encontrar nuestra ubicación en Google Maps."
+    
+    form:
+      name: "Nombre"
+      email: "E-mail"
+      phone: "Teléfono"
+      subject: "Asunto"
+      comments: "Comentarios"
+      send: "ENVIAR"
+    
+    new:
+      title_html: "Por favor, no dude en enviarnos sus consultas. <br /> Le contestaremos en la mayor brevedad posible."
+      subtitle: "A continuación puede encontrar nuestra ubicación en Google Maps."
+
+    aweberform:
+      title_html: "Por favor, no dude en enviarnos sus consultas. <br /> Le contestaremos en la mayor brevedad posible."
+      subtitle: "A continuación puede encontrar nuestra ubicación en Google Maps."
+      contactus: "Contacto"
+      bookroom: "Reserva una habitación"
+      contactustext_html: "Por favor ponte en contacto para preguntar cualquier duda o si quieres saber como podemos ayudarte.<br />Por favor dinos tus necesidades y un miembro de nuestro equipo se pondrá en contacto contigo tan pronto como sea posible.<br />Puedes hablarnos en inglés, rumano, francés, español e italiano."
+      bookroomtransfer: "Reserva tu habitación mediante Paypal o haciendo una transferencia a la cuenta:"
+      customer: "Atención al cliente"
+      feedbacktitle: "En Purple Stone Rooms, nos encanta oir las opinions de nuestros inquilinos"
+      feedbacktext: "Si quieres dejarnos tu comentarios sobre lo que estamos haciendo, sugerirnos cómo hacerlo mejor o simplemente decirnos cualquier cosa envía un mensaje o llámanos de lunes a viernes 09:00 am – 04:00 pm."
+      address: "Dirección de la oficina:"
+      opening: "Horario:"
+
 
   bookings:
    form:
@@ -70,19 +86,17 @@ es:
       dynamicacttext: "Aprende inglés con clases dinámicas llenas de actividades."
       findmore: "Descubre más, visita www.purplestoneacademy.com"
 
-      accomodation: "Alojamiento"
-      accomodationtitle1: "Cerca de la estación de metro a 15-20 minutos de la escuela"
-      accomodationtext1: "Todo el alojamiento se encuentra entre 1-10 minutos del metro y entre 15-20 minutos de nuestra escuela en autobús o metro. Las habitaciones están por los alrededores de Westferry, Canary Wharf, Bow, Limehouse, East India."
-      accomodationtitle2: "Vive con jóvenes, amigables en un ambiente multilenguaje mayoritariamente de estudiantes y jóvenes trabajadores europeos"
-      accomodationtext2: "Nuestras casas están ocupadas generalmente por jóvenes estudiantes o trabajadores de Europa. Seleccionamos cuidadosamente la gente que va a vivir en nuestras casas para asegurar equilibrio y harmonía."
-      accomodationtitle3: "Todas las facturas incluidas"
-      accomodationtext3: "Nuestro precio incluye todas las factures porque queremos tranquilidad para nuestros estudiantes."
-      accomodationtitle4: "Soluciones en 24 horas"
-      accomodationtext4: "Siempre intentamos empezar a solucionar un problema en menos de 24 horas. Nuestras prioridades son solucionar tus necesidades lo antes posible."
-      accomodationtitle5: "Estancia minima requerida"
-      accomodationtext5: "Habitualmente pedimos un mínimo de 3 meses más 6 semanas de aviso previo a la salida. Sin embargo ponte en contacto aun que necesites una habitación por un periodo más corto."
-
-      pleasecontact: "Por favor contacta con María Diz Hernández en caso de estar interesado en alguna de nuestras habitaciones: maria@purplestonerooms.com"
-      alternatively: "Como alternativa, por favor contacta con: Lily Patrascu: lily@purplestonerooms.com"
+      careeradvice: "Trabajo y Career Advice"
+      adviceandsupport: "Consejo y apoyo"
+      adviceandsupporttext: "Purple Stone Academy te ofrece su apoyo y consejo para que encuentres tu primer trabajo, abrir una cuenta bancaria, conseguir el NIN (national insurance number), etc."
+      cvwriting: "Escritura de CV"
+      cvwritingtext: "Te podemos ayudar a reescribir tu CV acorde al modelo en UK."
+      applicationstojobs: "Solicitud de trabajos"
+      applicationstojobstext: "Podemos solicitar trabajo de acuerdo a tu área elegida o tu experiencia, por ejemplo en puestos en hoteles, catering, nanny, au pair o limpieza."
+      training: "Formación"
+      trainingtext: "Ofrecemos formación y cursos relacionados con puestos en hoteles o catering. O podemos orientarte para conseguir trabajos de nanny o au pair."
+      consultation: "Oferecemos una consulta de 30 minutos de consejos y reescritura de CV si reservas un curso de mínimo 6 semanas."
+      getintouch: "Ponte en contacto con nosotros para más detalles en "
+      getintouch2: "O visita "
 
 

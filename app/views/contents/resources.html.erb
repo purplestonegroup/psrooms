@@ -1,12 +1,30 @@
 <section class="resources">
 
-	<div class="row resourses_top">
-		<div class="eight columns slide">
-			<%= image_tag "younghappy.jpg", width: '620' %>
+	<div class="row resources_top">
+		<div class="four columns offset-by-one slide">
+			<h4>Accomodation and Internships packages</h4>
+			<h3>We are developing some packages to give you the most customized attention.
+			<br />So, please keep in touch and come to this section in the future to see what we have prepared for you</h3>
+			<hr class="light">
+			<p><i class="fa fa-arrow-circle-down"></i> <%= active_link_to "Internships", resources_path(:anchor => "internship"), class: "link" %><br />
+			<i class="fa fa-arrow-circle-down"></i> <%= active_link_to "Career Advice", resources_path(:anchor => "career"), class: "link" %><br />
+			<i class="fa fa-arrow-circle-down"></i> <%= active_link_to "English Lessons", resources_path(:anchor => "school"), class: "link" %>
+			</p>
+
+		</div>
+		<div class="three columns offset-by-one slide">
+			<p class="button"><i class="fa fa-home"></i> Accomodation <br />+ English Lessons</p>
+			<p class="button"><i class="fa fa-home"></i> Accomodation <br />+ Career Advice</p>
+			<p class="button"><i class="fa fa-home"></i> Accomodation <br />+ English Lesson <br />+ Career Advice</p>
 		</div>
 
-		<%= render :partial => 'shared/aweberform' %>
-		
+		<div class="three columns slide">
+			<p class="button"><i class="fa fa-puzzle-piece"></i> Internships <br />+ English Lessons</p>
+			<p class="button"><i class="fa fa-puzzle-piece"></i> Internships <br />+ Career Advice</p>
+			<p class="button"><i class="fa fa-puzzle-piece"></i> Internships <br />+ English Lesson <br />+ Career Advice</p>
+			<br />
+		</div>
+
 	</div>
 
 	<div class="row">
@@ -15,6 +33,10 @@
 
 			<h2 id="internship"><i class="fa fa-puzzle-piece"></i> <%= t('.internships') %></h2>
 			<hr class="light">
+
+			<%= image_tag "internship_purplestone.jpg", alt: "Internships in Purple Stone Academy" %>
+			<br />
+
 			<p><%= t('.internshipstext') %></p>
 			<ul class="disc">
 				<li><%= t('.internshipsli1') %></li>
@@ -41,6 +63,9 @@
 
 			<h2 id="school"><i class="fa fa-book"></i> <%= t('.englishlessons') %></h2>
 			<hr class="light">
+
+			<%= image_tag "academy_activity.jpg" %>
+			<br /><br />
 
 			<div class="row">
 
@@ -91,18 +116,21 @@
 
 		<div class="eight columns offset-by-two">
 
-			<h2 id="acommodation"><i class="fa fa-home"></i> <%= t('.accomodation') %></h2>
+			<h2 id="career"><i class="fa fa-lightbulb-o"></i> <%= t('.careeradvice') %></h2>
 			<hr class="light">
 
+			<%= image_tag "careeradvice_purplestone.jpg", alt: "Career Advice in Purple Stone Academy" %>
+			<br /><br />
+
 			<div class="row">
 
 				<div class="three columns">
-					<h3><%= t('.accomodationtitle1') %></h3>
-					<p><%= t('.accomodationtext1') %></p>
+					<h3><%= t('.adviceandsupport') %></h3>
+					<p><%= t('.adviceandsupporttext') %></p>
 				</div>
 				<div class="three columns offset-by-one">
-					<h3><%= t('.accomodationtitle2') %></h3>
-					<p><%= t('.accomodationtext2') %></p>
+					<h3><%= t('.cvwriting') %></h3>
+					<p><%= t('.cvwritingtext') %></p>
 				</div>
 
 			</div>
@@ -110,28 +138,27 @@
 			<div class="row">
 
 				<div class="three columns">
-					<h3><%= t('.accomodationtitle3') %></h3>
-					<p><%= t('.accomodationtext3') %></p>
+					<h3><%= t('.applicationstojobs') %></h3>
+					<p><%= t('.applicationstojobstext') %></p>
 				</div>
 				<div class="three columns offset-by-one">
-					<h3><%= t('.accomodationtitle4') %></h3>
-					<p><%= t('.accomodationtext4') %></p>
+					<h3><%= t('.training') %></h3>
+					<p><%= t('.trainingtext') %></p>
 				</div>
 				
 			</div>
 
 			<div class="row">
+				<p><%= t('.consultation') %></p>
 
-				<div class="seven columns">
-					<h3><%= t('.accomodationtitle5') %></h3>
-					<p><%= t('.accomodationtext5') %></p>
-				</div>
-				
+				<note><%= t('.getintouch') %><%= mail_to "careers@purplestoneacademy.com", "careers@purplestoneacademy.com" %></note><br /><br />
+				<note><%= t('.getintouch2') %><%= link_to "www.purplestonecareeradvice.com", "http://www.purplestonecareeradvice.com" %></note>
 			</div>
 			
-			<note><%= t('.pleasecontact') %></note><br /><br />
-			<note><%= t('.alternatively') %></note>
-			
+			<br />
+			<hr>
+			<br />
+
 		</div>
 		
 	</div>

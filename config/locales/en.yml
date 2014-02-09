@@ -24,16 +24,29 @@ en:
     awebersubtitle: "Straight to Your Inbox!"
 
   contacts:
-   form:
-    name: "Name"
-    email: "E-mail"
-    phone: "Phone"
-    subject: "Subject"
-    comments: "Comments"
-    send: "SEND"
-   new:
-    title_html: "Please, feel free to send us your enquires.<br />We'll reply to you as soon as possible."
-    subtitle: "Below you can find our location in Google Maps."
+    form:
+      name: "Name"
+      email: "E-mail"
+      phone: "Phone"
+      subject: "Subject"
+      comments: "Comments"
+      send: "SEND"
+    new:
+      title_html: "Please, feel free to send us your enquires.<br />We'll reply to you as soon as possible."
+      subtitle: "Below you can find our location in Google Maps."
+
+    aweberform:
+      title_html: "Please, feel free to send us your enquires.<br />We'll reply to you as soon as possible."
+      subtitle: "Below you can find our location in Google Maps."
+      contactus: "Contact Us"
+      bookroom: "Book a Room"
+      contactustext_html: "Please get in touch if you have any questions or you wish to find out more about how we can help you.<br />You may speak to us in English, Romanian, French, Spanish and Italian."
+      bookroomtransfer: "Please book a Room by Paypal or by making a bank transfer to:"
+      customer: "Customer Service"
+      feedbacktitle: "At Purple Stone Rooms, we always love hearing from our Tenants"
+      feedbacktext: "Whether you want to give us feedback on what we're doing, suggest how we can make things better or simply fancy a chat, send us a message or give us a call. Telephone lines open Mon-Fri 09:00 am to 04:00 pm."
+      address: "Office Address:"
+      opening: "Opening hours:"
 
   bookings:
    form:
@@ -70,18 +83,16 @@ en:
       dynamicacttext: "Learn English with dynamic classroom and social activities!"
       findmore: "To find out more, please visit www.purplestoneacademy.com"
 
-      accomodation: "Accomodation"
-      accomodationtitle1: "Close to the tube Station and within 15-20 minutes to the school"
-      accomodationtext1: "All the accommodation we provide is within 1-10 minutes from the tube station and within 15-20 minutes from our school by bus or train station. The rooms to rent are based around Westferry, Canary Wharf, Bow, Limehouse, East India."
-      accomodationtitle2: "Live with Young, Friendly, Multilingual - mainly European Students and Young Professionals"
-      accomodationtext2: "Our houses have mainly students and young professionals from Europe. We carefully select the people who live in our houses in order to ensure balance and harmony."
-      accomodationtitle3: "All Bills included"
-      accomodationtext3: "We offer rooms to rent with all bills included because we want to offer peace of mind to our students."
-      accomodationtitle4: "Support within 24 hours"
-      accomodationtext4: "We always try to get back to you and start resolving any problems you may have within 24 hours. We make it our priority to meet your needs as soon as possible."
-      accomodationtitle5: "Minimum stay applies"
-      accomodationtext5: "We usually have a minimum stay of three months plus 6 weeks notice. Please get in touch if you need a room for a shorter period."
-
-      pleasecontact: "Please contact Maria Diz Hernandez in case you would like more information about our available rooms: maria@purplestonerooms.com"
-      alternatively: "Alternatively, please contact Lily Patrascu in: lily@purplestonerooms.com"
+      careeradvice: "Jobs and Career Advice"
+      adviceandsupport: "Advice and Support"
+      adviceandsupporttext: "Purple Stone Academy offers you support and careers advice in finding your first job, setting up a bank account, getting a NINO (national insurance number), etc."
+      cvwriting: "CV writing"
+      cvwritingtext: "We can help you by writing your CV to the UK standards."
+      applicationstojobs: "Applications to jobs"
+      applicationstojobstext: "We can apply for you for certain jobs in our area of expertise, such as in the hotel, catering, nanny, au pair and cleaning roles."
+      training: "Training"
+      trainingtext: "We can offer training in certain courses that relate to the hotel and catering industries. We can also point you in the right direction for nanny, and au pair roles."
+      consultation: "We can offer a 30 minute consultation of CV writing and advice if you book minimum 6 weeks of courses. Booking is required."
+      getintouch: "Please get in touch with us for further details at "
+      getintouch2: "Or visit "
 
