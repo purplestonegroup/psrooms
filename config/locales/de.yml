@@ -1,0 +1,98 @@
+de:
+
+  layouts:
+   application:
+    slogan_html: "Lovely Rooms<br />for Lovely People"
+    home: "HOME"
+    rooms: "ROOMS"
+    ouraccommodation: "OUR ACCOMMODATION"
+    chooseus: "WHY CHOOSE US?"
+    community: "COMMUNITY"
+    resources: "RESOURCES"
+    contact: "CONTACT"
+    aboutustitle: "About Us"
+    whatis: "What is Purple Stone Rooms?"
+    aboutustext: "We are a private company based in London. We specialize in providing accommodation for younger people wanting to improve their English and find a job as well as enjoying the city. We provide fully furnished rooms and do everything we can to guarantee an excellent and comfortable stay."
+    affiliatetitle: "Join Our Affiliate Programme Now!"
+    affiliatetext: "By sending an email to us you can Join to our Free Affiliate Programme and earn generous commissions from sales generated from referrals !"
+    affiliatebutton: "JOIN US"
+    ourcompanies: "Our Companies"
+
+  shared:
+   aweberform:
+    awebertitle: "Want to know Our Rooms Availability?"
+    awebersubtitle: "Straight to Your Inbox!"
+
+  contacts:
+    form:
+      name: "Name"
+      email: "E-mail"
+      phone: "Phone"
+      subject: "Subject"
+      comments: "Comments"
+      send: "SEND"
+    new:
+      title_html: "Please, feel free to send us your enquires.<br />We'll reply to you as soon as possible."
+      subtitle: "Below you can find our location in Google Maps."
+
+    aweberform:
+      title_html: "Please, feel free to send us your enquires.<br />We'll reply to you as soon as possible."
+      subtitle: "Below you can find our location in Google Maps."
+      contactus: "Contact Us"
+      bookroom: "Book a Room"
+      contactustext_html: "Please get in touch if you have any questions or you wish to find out more about how we can help you.<br />You may speak to us in English, Romanian, French, Spanish and Italian."
+      bookroomtransfer: "Please book a Room by Paypal or by making a bank transfer to:"
+      customer: "Customer Service"
+      feedbacktitle: "At Purple Stone Rooms, we always love hearing from our Tenants"
+      feedbacktext: "Whether you want to give us feedback on what we're doing, suggest how we can make things better or simply fancy a chat, send us a message or give us a call. Telephone lines open Mon-Fri 09:00 am to 04:00 pm."
+      address: "Office Address:"
+      opening: "Opening hours:"
+
+  bookings:
+   form:
+    name: "Name"
+    email: "E-mail"
+    phone: "Phone"
+    address: "Address"
+    post_code: "Post Code"
+    send: "Pay through PayPal"
+
+  contents:
+
+    resources:
+      internships: "Internships"
+      internshipstext: "At Purple Stone Academy we offer professional work experience in our company."
+      internshipsli1: "A professional internship provides unpaid work experience in an English speaking environment in the same field of study as the candidate’s studies."
+      internshipsli2: "Work experience placements are generally available in marketing, market research, graphic design, product development, and office work."
+      internshipsli3: "An internship can be taken in combination with an English language course at our school in East London, or, for students with excellent English language skills, on its own."
+      internshipsli4: "There is a minimum level of English of Intermediate level required in order to be able to be given this opportunity."
+      internshipsli5: "Most internships will last minimum 3 months, Monday to Friday, for 5 hours a day, but in exceptional circumstances, shorter periods can be arranged."
+      internshipsli6: "During the period of work experience, interns may be given a variety of tasks of different kinds - ranging from challenging project work to routine administrative tasks such as publishing our school or accommodation on different websites, translating documents, distributing leaflets, creating flyers, writing and researching content for our magazine."
+      internshipsli7: "As a 'volunteer', interns will not be paid. Above all, candidates should remember that while they are learning linguistic and professional skills, they will be expected to contribute as an employee might."
+
+      englishlessons: "English Lessons"
+      structure: "Structure"
+      structuretext: "We ensure that all our classes are tailored to your unique needs. All our English courses are structured to cater for your level, ability and overall objectives."
+      support: "Support"
+      supporttext: "Purple Stone Academy is an English language school geared towards helping foreign students improve their English so that they can get work and continue their study."
+      encouragement: "Encouragement"
+      encouragementtext: "We provide you with English language lessons, support networks and accommodation so that you can meet your educational needs."
+      evaluation: "Evaluation"
+      evaluationtext: "Our English School offers you a fantastic System for Learning English that will enable you to: Speak English, Read with confidence, Improve your Pronunciation, Listening and Writing."
+      dynamicact: "Dynamic Activities"
+      dynamicacttext: "Learn English with dynamic classroom and social activities!"
+      findmore: "To find out more, please visit www.purplestoneacademy.com"
+
+      careeradvice: "Jobs and Career Advice"
+      adviceandsupport: "Advice and Support"
+      adviceandsupporttext: "Purple Stone Academy offers you support and careers advice in finding your first job, setting up a bank account, getting a NINO (national insurance number), etc."
+      cvwriting: "CV writing"
+      cvwritingtext: "We can help you by writing your CV to the UK standards."
+      applicationstojobs: "Applications to jobs"
+      applicationstojobstext: "We can apply for you for certain jobs in our area of expertise, such as in the hotel, catering, nanny, au pair and cleaning roles."
+      training: "Training"
+      trainingtext: "We can offer training in certain courses that relate to the hotel and catering industries. We can also point you in the right direction for nanny, and au pair roles."
+      consultation: "We can offer a 30 minute consultation of CV writing and advice if you book minimum 6 weeks of courses. Booking is required."
+      getintouch: "Please get in touch with us for further details at "
+      getintouch2: "Or visit "
+
