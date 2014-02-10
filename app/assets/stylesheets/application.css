@@ -13,6 +13,6 @@
  *= require leaflet
  *= require layout
  *= require slicknav
- *= require jquery.bxslider
+ *= require flexslider
  *= require posts
   */

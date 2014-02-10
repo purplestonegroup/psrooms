@@ -96,3 +96,122 @@ rm:
       getintouch: "Please get in touch with us for further details at "
       getintouch2: "Or visit "
 
+
+    accommodation:
+      accommodationtit1: "Casele sunt mobilate cu tot ce este necesar."
+      accommodation1: |
+        Bucatariile au frigider, cuptor cu micorounde si masina de spalat.
+        Vei gasi de asemenea un fier de calcat, o masa de calcat, un aspirator profesional si tot ce ti-ai putea dori pentru curatenia casei. (exceptand o menajera).
+        Baile sunt mobilate cu oglinzi, cortine si ceva pentru a nu aluneca in baie.
+        Apa calda si incalzire de la centrala sunt disponibile pentru a garanta chiriasilor comfortul in timpul de iarna sau cand este frig.
+        O problema generala a orasului este presiunea apei si din cauza asta am instalat echipament aditional pentru a mari presiunea apei.
+
+      accommodationtit2: "Cate persoane locuiesc aici?"
+      accommodation2: |
+        Fiecare camera este ocupata de 1 sau 2 persoane maximum.
+        Le garantam chiriasilor o atmosfera prietenoasa, si zonele comune sunt tratate cu respect.
+        Chiriasii nostri sunt studenti tineri si persoane tinere profesionale intre 20 si 30 de ani. Tot timpul incercam sa mentinem o balanta intre barbati si femei in casa.
+
+      accommodationtit3: "Locatie"
+      accommodation3: |
+        Unde sunt localizate camerele.
+        Toate proprietatile noastre sunt localizate in estul Londrei, zona 2. Casele sunt la distanta scurta de statiile de metrou si statiile de autobuz si aproape de magazine, supermarketuri si magazine locale.
+        Zonele in care sunt camerele:
+        Westferry / Canary Wharf
+        Shadwell
+        Limehouse
+        Stepney Green
+        Mile End
+        Bow
+        East India
+        Poplar
+        Bethnal Green
+
+      accommodationtit4: "Facturi"
+      accommodation4: |
+        Costul chiriei fiecarei camere include toate facturile. Asta inseamna ca nu trebuie sa platesti in plus pentru electricitate, gaz, apa, taxa de primarie, interent sau licenta de tv.
+        Toate camerele de la Purple Stone romos au becuri care economisesc electricitatea si sistemele de inclazire sunt selectionate cu atentie pentru a garanta un consum de energie eficient.
+
+      accommodationtit5: "Cu ce ne ocupam la Stone Rooms?"
+      accommodation5: |
+        Va dam tot suportul de care aveti nevoie pentru a alege o camera care este pe gustul dumneavoastra. 
+        Acum avem aproximativ 100 de camere disponibile pentru inchiriat in partea de est a Londrei, (Transport Zone 2), aproape de statii de autobuz si metrouri si cu access simplu la centrul Londrei. 
+        Toti clientii nostri au ca beneficiu 2 ore gratis de lectii de limba Engleza si 1 ora de consultanta gratis pentru gasirea unui loc de munca in Londra
+
+      accommodationtit6: "Echipa de la Purple Stone Rooms"
+      accommodation6: |
+        Purple Stone Rooms are o echipa tanara si prietenoasa, dornica sa ajute, care are training sa va asiste cu tot ce aveti nevoie pentru a va asigura tot ce aveti nevoie pentru a va integra in Londra. Contactati-ne pentru orice aveti nevoie, pentru ca si noi va putem ajuta cu experienta noastra.
+
+      accommodationtit7: "Lideri"
+      accommodation7: |
+        Purple Stone Rooms este o companie lider care ofera servicii de inchiriere pentru tineri, in special din tari europene. Clientii nostri vor sa isi imbunatateasca engleza pe parcursul sederii inainte de a se intoarce acasa, unde pot sa gaseasca mult mai usor un loc de munca. Compania are mai multe metode ca sa faca asta sa se intample.
+
+      accommodationtit8: "Cum sunt camerele de la Purple Stone Rooms?"
+      accommodation8: |
+        Camerele noastre sunt mobilate complet cu toate cele necesare pentru a te face sa te simti ca acasa. Camerele au masa, scaun, veioza, garderoba, pat, oglinda si perdele. Multe din camerele duble au TV cu 900 de canale! 
+        Internet rapid nelimitat.
+
+
+    chooseus:
+      chooseustit1: "Serviciu cu clientii excelent"
+      chooseus1: |
+        Purple Stone Rooms se bazeaza pe o echipa tanara, calificata si specializata care vor face tot posibilul sa va faca sa va simtiti ca acasa.
+        Echipa noastra este prietenoasa si de ajutor, si intelege dificultatile intampinate cand te muti in alta tara. 
+        In momentul in care ne spuneti ca aveti vreo problema in casa dumneavaostra, o vom repara rapid. Suntem mandri ca 90% din probleme sunt rezolvate in 24 de ore.
+
+      chooseustit2: "Beneficiile caselor"
+      chooseus2: |
+        Volledig ingericht
+        Goede interne communicatie tussen afdelingen
+        Een goede omgeving om je thuis te voelen 
+        Nieuw vrienden van verschillenden landen die algemeene interessen, ervaringen en opleiding delen.
+        Alternatieve diensten, zoals onze Engels taalschool die zullen bijdragen tot de bevordering van de snelle integratie en ontmoet honderden mensen om onvergetelijke momenten te delen in een van de belangrijkste steden in de wereld. 
+
+      chooseustit3: "Beneficiile caselor de la Purple Stone Rooms"
+      chooseus3: |
+        Volledig ingerichte appartamenten
+        Regelmatig ongediertebestrijding
+        Brandalarmen en koolmonoxidemelders geinstalleerd 
+        Efficiënt energiegebruik systeem geïnstalleerd om het energie verbruik te verlagen en tegelijkertijd het milieu beschermen 
+        Gegarandeerde internet connectie vanwegen 5 voorzadig draadloze routers die een internet connectie kunnen op nemen door mobiele telefoon netwerken  
+        In het geval van gebroken verwarming hebben elektriesche kachels voor iedere bezittin 
+
+      chooseustit4: "Mentinerea caselor"
+      chooseus4: |
+        Het bedrijf heeft de procedure voor het periodiek controleren van de werking van brandalarmen, gezien het belang dat zij nodig heeft de regionale managers persoonlijk aan het werk.
+        Ook in deze periode werd vastgesteld dat de huizen schoon worden gehouden en de schoonmaak procedure werd correct uitgevoerd.
+        Ons team heeft direct contact met klanten, om te controleren of alles werkt te maken in orde en is er geen probleem
+
+
+    community:
+      communitytit1: "Clientii de la Purple Stone Rooms"
+      community1: |
+        Clientii nostri sunt tineri intre 20 si 30 de ani. Majoritatea lor vin din tari Europene si vin in Londra sa lucreze, studieze si sa isi imbunatateasca engleza.In afara de asta,vei avea o noua experienta in una din cele mai mari, mai interesante si mai importante tari din lume
+
+      communitytit2: "Din ce tari vin clientii nostri?"
+      community2: |
+        Majoritatea clientilor nostri vin din Europa, mai ales Franta, Italia, Belgia, Regatul Unit, Olanda, Belgia, Germania., Portugalia si Spania.
+        De asemenea oferim cazare oricarei persoane care doreste sa se inroleze la Universitate, ca de exemplu student din Africa de Sud, Statele Unite ale Americii, Canada, Korea de Sud, Japonia si China.
+
+      communitytit3: "Care sunt obiectivele?"
+      community3: |
+        Scopul principal al clientilior nostri este de a invata si a-si imbunatati engleza rapid.
+        Noi incercam sa punem in fiecare casa persoane de nationalitati diferite pentru a facilita imbunatatirea limbii engleze vorbind cu alti chiriasi.
+        Insa asta depinde de disponibilitate.
+        Locuirea intr-un loc confortabil si prietenos este una din cele mai importante scopuri ale Purple Stone Rooms. 
+
+      communitytit4: "Retea Sociala"
+      community4: |
+        Comunitatea de la Purple Stone Rooms, care include chiriasi noi si vechi,tin legatura prin retele sociale.
+        Chiriasii sunt bineveniti sa imparta fotografii si video prin paginile retelelor noastre despre experientele lor si petrecerile in urmatoarele retele sociale: Facebook, Twitter, youtube sau in blogul nostru.
+        Directorul General al Purple Stone Rooms- Domnul Herades Sardinas (Harry) multumeste tututor chiriasilor pentru colaborarea si ajutorul in crearea unor pagini de web.
+        Videourile  si pozele lor arata cum am petrecut imreuna.Nu il vom uita pe Harry!
+
+      communitytit4: "Despre Londen"
+      community4: |
+        Big Ben, de Real Palace, de London Eye, theatres, literatuur, muziek, Portobello Market, Camden Town, de markt van Brick Lane, de National Gallery, en de Tate Modern.
+        In de maand van juli word Londen’s bevolking bijna 10 milioen, en vrede en samenwoning tussen verschillende cultuuren blijfd doorgaan.
+        Wat Londen verschillend maakt van andere europese steeden is het alternatieve karakter.
+        De Stad heeft een mengsel van het traditionele en het innovatieve en revolutionaire, bijvoorbild het Lloyd’s gebouw, of de Gherkin (augurk) ontworpen door britse architecten Richard Rogers en Norman Foster. 
+
+

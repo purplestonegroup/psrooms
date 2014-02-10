@@ -12,8 +12,9 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
 //= require leaflet
 //= require chosen.jquery.min
 //= require global
+//= require jquery.slicknav.min
+//= require jquery.flexslider-min
 //= require_tree .

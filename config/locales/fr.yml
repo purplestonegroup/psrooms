@@ -1,98 +1,221 @@
 fr:
 
   layouts:
-   application:
-    slogan_html: "Lovely Rooms<br />for Lovely People"
-    home: "HOME"
-    rooms: "ROOMS"
-    ouraccommodation: "OUR ACCOMMODATION"
-    chooseus: "WHY CHOOSE US?"
-    community: "COMMUNITY"
-    resources: "RESOURCES"
-    contact: "CONTACT"
-    aboutustitle: "About Us"
-    whatis: "What is Purple Stone Rooms?"
-    aboutustext: "We are a private company based in London. We specialize in providing accommodation for younger people wanting to improve their English and find a job as well as enjoying the city. We provide fully furnished rooms and do everything we can to guarantee an excellent and comfortable stay."
-    affiliatetitle: "Join Our Affiliate Programme Now!"
-    affiliatetext: "By sending an email to us you can Join to our Free Affiliate Programme and earn generous commissions from sales generated from referrals !"
-    affiliatebutton: "JOIN US"
-    ourcompanies: "Our Companies"
+    application:
+      slogan_html: "Lovely Rooms<br />for Lovely People"
+      home: "ACCUEIL"
+      rooms: "CHAMBRES"
+      ouraccommodation: "NOTRE LOGEMENT"
+      chooseus: "POURQUOI NOUS CHOISIR?"
+      community: "COMMUNAUTÉ"
+      resources: "RESSOURCES"
+      contact: "CONTACT"
+      aboutustitle: "Qui sommes-nous"
+      whatis: "Quel est Purple Stone Rooms?"
+      aboutustext: "Purple Stone Rooms Ltd est une entreprise privée installée à Londres. Nous avons pour but d'aider les jeunes qui veulent perfectionner leur anglais tout en profitant de Londres. Nous les aidons également à trouver un logement ainsi qu'un travail si besoin. Ainsi, nos clients sont sélectionnés avec soin afin de leur garantir un excellent confort tout au long de leur séjour."
+      affiliatetitle: "Rejoignez notre programme d'affiliation maintenant!"
+      affiliatetext: "Inscrivez-vous  à notre programme d’adhésion gratuit et gagnez des commissions sur les ventes générées par vos recommandations!"
+      affiliatebutton: "REJOIGNEZ-NOUS"
+      ourcompanies: "Nos Sociétés"
 
   shared:
-   aweberform:
-    awebertitle: "Want to know Our Rooms Availability?"
-    awebersubtitle: "Straight to Your Inbox!"
+    aweberform:
+      awebertitle: "Vous voulez connaître nos Chambres Disponibilité?"
+      awebersubtitle: "Directement à votre boîte de réception!"
 
   contacts:
     form:
-      name: "Name"
-      email: "E-mail"
-      phone: "Phone"
-      subject: "Subject"
-      comments: "Comments"
-      send: "SEND"
+      name: "Nom"
+      email: "Adresse Email"
+      phone: "Téléphone"
+      subject: "sujet"
+      comments: "commentaires"
+      send: "ENVOYER"
     new:
       title_html: "Please, feel free to send us your enquires.<br />We'll reply to you as soon as possible."
       subtitle: "Below you can find our location in Google Maps."
 
     aweberform:
-      title_html: "Please, feel free to send us your enquires.<br />We'll reply to you as soon as possible."
-      subtitle: "Below you can find our location in Google Maps."
-      contactus: "Contact Us"
-      bookroom: "Book a Room"
-      contactustext_html: "Please get in touch if you have any questions or you wish to find out more about how we can help you.<br />You may speak to us in English, Romanian, French, Spanish and Italian."
-      bookroomtransfer: "Please book a Room by Paypal or by making a bank transfer to:"
-      customer: "Customer Service"
-      feedbacktitle: "At Purple Stone Rooms, we always love hearing from our Tenants"
-      feedbacktext: "Whether you want to give us feedback on what we're doing, suggest how we can make things better or simply fancy a chat, send us a message or give us a call. Telephone lines open Mon-Fri 09:00 am to 04:00 pm."
-      address: "Office Address:"
-      opening: "Opening hours:"
+      title_html: "S'il vous plaît, n'hésitez pas à nous envoyer vos demandes de renseignements. Nous allons vous répondre dès que possible."
+      subtitle: "Ci-dessous vous pouvez trouver notre emplacement sur ​​Google Maps."
+      contactus: "Contactez-nous"
+      bookcourse: "Réservez un chambres"
+      contactustext_html: "Si vous avez des questions ou si vous souhaitez en savoir plus sur comment nous pouvons vous aider à améliorer votre anglais, n’hésitez pas à nous contacter. <br />Merci d’indiquer vos préférences et vos besoins spécifiques de formation, et un membre dévoué de notre équipe reviendra vers vous dès que possible.<br />Vous pouvez nous parler en anglais, roumain, français, espagnol et italien."
+      bookcoursetransfer: "Réservez, s’il vous plait, un cours par Paypal ou en faisant un virement bancaire à:"
+      customer: "Service Clients"
+      feedbacktitle: "A Purple Stone Rooms, nous aimons toujours avoir des nouvelles de nos locataires"
+      feedbacktext: "Si vous voulez nous donner vos impressions sur ce que nous faisons, suggérer comment nous pourrions améliorer les choses ou simplement envie d'un chat, envoyez-nous un message ou appelez-nous. Lignes téléphoniques ouvertes du Lundi au Vendredi de 8H à 20H."
+      address: "Adresse du bureau:"
+      opening: "Horaires d’ouvertures:"
 
-  bookings:
-   form:
-    name: "Name"
-    email: "E-mail"
-    phone: "Phone"
-    address: "Address"
-    post_code: "Post Code"
-    send: "Pay through PayPal"
+    bookings:
+      form:
+        name: "Name"
+        email: "E-mail"
+        phone: "Phone"
+        address: "Address"
+        post_code: "Post Code"
+        send: "Pay through PayPal"
 
   contents:
 
     resources:
-      internships: "Internships"
-      internshipstext: "At Purple Stone Academy we offer professional work experience in our company."
-      internshipsli1: "A professional internship provides unpaid work experience in an English speaking environment in the same field of study as the candidate’s studies."
-      internshipsli2: "Work experience placements are generally available in marketing, market research, graphic design, product development, and office work."
-      internshipsli3: "An internship can be taken in combination with an English language course at our school in East London, or, for students with excellent English language skills, on its own."
-      internshipsli4: "There is a minimum level of English of Intermediate level required in order to be able to be given this opportunity."
-      internshipsli5: "Most internships will last minimum 3 months, Monday to Friday, for 5 hours a day, but in exceptional circumstances, shorter periods can be arranged."
-      internshipsli6: "During the period of work experience, interns may be given a variety of tasks of different kinds - ranging from challenging project work to routine administrative tasks such as publishing our school or accommodation on different websites, translating documents, distributing leaflets, creating flyers, writing and researching content for our magazine."
-      internshipsli7: "As a 'volunteer', interns will not be paid. Above all, candidates should remember that while they are learning linguistic and professional skills, they will be expected to contribute as an employee might."
+      internships: "Stages"
+      internshipstext: "A Purple Stone Academy, nous offrons une expérience professionnelle dans notre société."
+      internshipsli1: "Un stage professionnel fournit une expérience professionnelle non rémunérée dans un environnement anglophone dans votre domaine d’étude, précédentes expériences et objectifs de carrière à long terme."
+      internshipsli2: "Les stages ajoutent un statut considérable au CV et sont excellents pour les perspectives de carrière à long terme."
+      internshipsli3: "Les stages sont généralement disponibles dans le marketing, études de marché, la conception graphique, le développement de produits, et le travail de bureau."
+      internshipsli4: "Un stage peut être pris en combinaison avec des cours d'anglais dans notre école dans l’Est de Londres, ou, pour les étudiants ayant d'excellentes compétences linguistiques en anglais, livrés à eux-même."
+      internshipsli5: "La plupart des stages peuvent démarrer les lundis et dureront 3 mois minimum, du Lundi au Vendredi, pendant 5 heures par jour, mais dans des circonstances exceptionnelles, des périodes plus courtes peuvent être organisées."
+      internshipsli6: "Pendant la période de stage en entreprise, les stagiaires se voient confiés une variété de tâches différentes : allant du travail de projet stimulant à des tâches administratives de routine telles que la publication de notre école ou l'hébergement sur différents sites Web, la traduction de documents, la distribution de tracts, création de prospectus, écriture et recherche de contenu pour notre magazine."
+      internshipsli7: "En tant que «volontaire», les stagiaires ne seront pas payés. Par-dessus tout, les candidats doivent se rappeler que pendant qu'ils apprennent les compétences linguistiques et professionnelles, nous attendons également d’eux qu’ils travaillent dur et contribuent avec toute la puissance d’un employé."
 
-      englishlessons: "English Lessons"
+      englishlessons: "Leçons d’Anglais"
       structure: "Structure"
-      structuretext: "We ensure that all our classes are tailored to your unique needs. All our English courses are structured to cater for your level, ability and overall objectives."
-      support: "Support"
-      supporttext: "Purple Stone Academy is an English language school geared towards helping foreign students improve their English so that they can get work and continue their study."
+      structuretext: "Nous nous assurons que tous nos cours sont adaptés à vos besoins uniques. Nos cours d'anglais sont structurés pour répondre à votre niveau, votre  capacité et vos objectifs en général."
+      support: "Soutien"
+      supporttext: "Purple Stone Academy est une école d’Anglais visant à aider les étudiants étrangers à améliorer leur anglais rapidement afin qu'ils puissent trouver du travail et poursuivre leurs études."
       encouragement: "Encouragement"
-      encouragementtext: "We provide you with English language lessons, support networks and accommodation so that you can meet your educational needs."
+      encouragementtext: "Nous offrons des cours d'anglais, des réseaux de soutien et d'hébergement afin que vous puissiez répondre à vos besoins éducatifs."
       evaluation: "Evaluation"
-      evaluationtext: "Our English School offers you a fantastic System for Learning English that will enable you to: Speak English, Read with confidence, Improve your Pronunciation, Listening and Writing."
-      dynamicact: "Dynamic Activities"
-      dynamicacttext: "Learn English with dynamic classroom and social activities!"
-      findmore: "To find out more, please visit www.purplestoneacademy.com"
+      evaluationtext: "Notre école d'anglais vous offre un système fantastique pour apprendre l'anglais qui vous permettra de: parler anglais, lire en toute confiance, améliorer votre prononciation, votre écoute et votre écrit."
+      dynamicact: "Activités Dynamiques"
+      dynamicacttext: "Apprendre l'anglais avec des classes dynamiques et des activités sociales!"
+      findmore: "Pour en savoir plus, visitez www.purplestoneacademy.com"
 
-      careeradvice: "Jobs and Career Advice"
-      adviceandsupport: "Advice and Support"
-      adviceandsupporttext: "Purple Stone Academy offers you support and careers advice in finding your first job, setting up a bank account, getting a NINO (national insurance number), etc."
-      cvwriting: "CV writing"
-      cvwritingtext: "We can help you by writing your CV to the UK standards."
-      applicationstojobs: "Applications to jobs"
-      applicationstojobstext: "We can apply for you for certain jobs in our area of expertise, such as in the hotel, catering, nanny, au pair and cleaning roles."
-      training: "Training"
-      trainingtext: "We can offer training in certain courses that relate to the hotel and catering industries. We can also point you in the right direction for nanny, and au pair roles."
-      consultation: "We can offer a 30 minute consultation of CV writing and advice if you book minimum 6 weeks of courses. Booking is required."
-      getintouch: "Please get in touch with us for further details at "
-      getintouch2: "Or visit "
+      careeradvice: "Conseils de carrière et emploi"
+      adviceandsupport: "Conseils et support"
+      adviceandsupporttext: "Purple Stone Academy vous offre son support et ses conseils de carrière dans la recherche de votre premier emploi, la mise en place d'un compte bancaire, obtenir un NINO (numéro d'assurance nationale), etc."
+      cvwriting: "Rédaction de CV"
+      cvwritingtext: "Nous pouvons vous aider à écrire votre CV aux normes britanniques."
+      applicationstojobs: "Demande d’emploi"
+      applicationstojobstext: "Nous pouvons postuler pour vous pour certains emplois dans notre domaine d'expertise : hôtel, restauration, nounou, fille au pair et nettoyage."
+      training: "Formation"
+      trainingtext: "Nous pouvons offrir de la formation dans certains cours qui se rapportent à l’hôtellerie et la restauration. Nous pouvons également vous diriger dans la bonne direction pour les emplois de nounou, et de fille au pair."
+      consultation: "Nous pouvons offrir une consultation de 30 minutes pour la rédaction du CV et des conseils CV si vous réservez au moins 6 semaines de cours. La réservation est obligatoire."
+      getintouch: "S'il vous plaît, entrer en contact avec nous pour plus de détails à "
+      getintouch2: "Ou visiter "
+
+
+    accommodation:
+      accommodationtit1: "Les logements sont-ils meublés?"
+      accommodation1: |
+        Les maisons sont équipées des ustensils de base dont vous avez besoin. La cuisine est équipée d'un réfrigirateur, d'un micro-ondes, d'une machine à laver, d'un aspirateur ainsi q'une table et d'un fer à repasser.
+        La salle de bain est équipée d'un mirroir, d'un rideau de douche et d'un tapis anti-dérappant. Bien évidement nos maisons sont équipées d'eau chaude et de chauffage pour garantir à nos locataires tout le confort durant les nuits froides Londoniennes!
+        Cependant Londres compte un problème de faible pression de l'eau et de ce fait, certaines de nos maisons sont équipées d'un systeme additionnel afin de contrer ce problème et d'augmenter la pression de l'eau
+
+      accommodationtit2: "Combien de personnes vivent dans le même logement?"
+      accommodation2: |
+        Toutes nos chambres peuvent être occupées par 1 ou 2 personnes maximum. Nous garantissons aux locataires une atmosphère amicale et un respect des uns et des autres dans les parties communes.
+        Nos locataires sont des jeunes étudiants ou des professionels dans la vingtaine.
+        Nous essayons toujours de garder un équilibre entre hommes et femmes dans tous nos logements.
+
+      accommodationtit3: "Emplacements disponibles"
+      accommodation3: |
+        Toutes nos propriétés sont situées dans l'Est de Londres en Zone 2. Toutes les maisons sont à une courte distance des métros,des arrets de bus, des supermarchés, épiceries...
+        Emplacements disponibles:
+        Westferry / Canary Wharf
+        Shadwell
+        Limehouse
+        Stepney Green
+        Mile End
+        Bow
+        East India
+        Poplar
+        Bethnal Green
+
+      accommodationtit4: "Factures et charges"
+      accommodation4: |
+        Le loyer de toutes les chambres inclut toutes les charges. Cela signifit que le locataire ne paye pas de frais supplémentaires pour l'électricité, le gaz, l'eau, la taxe d'habitation, internet et la redevance télé.
+        Tous les logements de Purple Stone Rooms utilisent un système d'ampoule économique ainsi qu'un système de chauffage qui est soigneusement et systématiquement vérifié et calibré pour garantir une consommation efficace de l'énergie.
+
+      accommodationtit5: "Comment opérons nous?"
+      accommodation5: |
+        Parmis tous les logements de Purple Stone Rooms, nous vous offrons la possibilité de choisir celuis quii correspond le meiux à vos attentes.
+        Notre palette est constituée d'une centaine de chambres, toutes situées en Zone 2 ( Est de Londres ), proches du métro, ce qui facilite l'accès au centre de Londres.
+        Tous nos clients ont la possibilité de suivre 2 cours d'anglais gratuitement ainsi qu' 1 heure gratuite d'aide à la recherche d'emploi.
+
+      accommodationtit6: "L'équipe de Purple Stone Rooms"
+      accommodation6: |
+        Purple Stone Rooms est une équipe multi-culturelle, sympathique et serviable, formée dans le but de vous assister au mieux en identifiant correctement vos besoins.
+        N'hésitez pas à nous contacter, l'équipe se tient à votre disposition si vous rencontrez le moindre problème.
+
+      accommodationtit7: "Leaders"
+      accommodation7: |
+        Purple Stone Rooms est une entreprise en expansion qui fournie des services aux jeunes Européens (logements, cours d'anglais...).
+        Nos clients sont pour la majorité ici pour apprendre ou pour perfectionner leur anglais avant de repartir dans leur pays d'origine afin de mieux percer dans le monde du travail. 
+        Ainsi, notre entreprise met en oeuvre toutes les procédures possible pour faciliter ce processus.
+
+      accommodationtit8: "Quelle type d'hébergement offrons nous?"
+      accommodation8: |
+        Nos chambres sont entièrement meublées avec toutes les accomodations nécessaires. Vous vous sentirez comme chez vous!
+        Les chambres sont munies de:
+        chaise
+        bureau
+        lampe de bureau
+        armoire
+        lit
+        mirroir
+        rideaux
+
+        Quelques-unes d'entre elles possèdent la TV avec un accès à 900 chaines.
+        Internet à haut débit et illimité est également inclu.
+
+
+    chooseus:
+      chooseustit1: "Excellence du service clients"
+      chooseus1: |
+        L'équipe de Purple Stone Roms est une équipe jeune, qualifiée, spécialisée et capable de vous offrir un exellent service client.
+        Tous les membres de notre équipe sont respectueux et polis envers les autres membres de l'équipe ansi qu' envers les locataires.
+        Si vous avez un problème quelconque dans votre appartement, envoyez nous un email et Purple Stone Room mettra tout de suite en marche la procédure pour régler au plus vite votre problème.
+        Nous sommes fiers d'avoir 90% des problèmes réglés sous les 24 heures. 
+
+      chooseustit2: "Avantages de nos emplacements"
+      chooseus2: |
+        Les chambres sont entièrement équipées. Toutes les charges sont incluses. Toutes nos maisons sont en Zone 2, à proximité des stations de métro ou de bus. Les transactions et paiement du loyer se font par virement bancaire ou par paypal.
+        Bénéficiez d'un cadre de vie idéal pour vous sentir comme chez vous! Faites-vous de nouveaux amis de différents pays pour partager des passions communes et vivre de nouvelles expériences !
+        Nous proposons également des services alternatifs tels que notre Académie d'Anglais qui vous aidera à vous intégrer plus rapidement.
+
+      chooseustit3: "Avantages de nos logements"
+      chooseus3: |
+        Nos maisons sont entièrement équipées. Des systèmes efficaces sont installés pour diminuer la consommation d'énergie ainsi que pour protéger l'environnement.
+        Dans le cas ou le routeur de votre logement ne marcherait plus, ne vous inquietez pas, notre entreprise possède un set de plusieurs routeurs d'urgence pour vous garantir une connection haut-débit à n'importe quel moment.
+        Dans le cas d'un radiateur cassé, nous possédons des radiateurs électriques pour chacune des propriétés. Ils vous les seront fournis dès que vous nous signalerez le problème par e-mail. 
+
+      chooseustit4: "Entretien de nos lodgements"
+      chooseus4: |
+        Pour des raisons de sécurité, notre entreprise a établie des "tests incendie" périodique.
+        Nous voulons être sûr que la maison est propre et que tous les locataires suivent la fiche de nettoyage.
+        Notre équipe est en contact direct avec nos locataires pour être sur que tout fonctionne correctement.
+
+
+    community:
+      communitytit1: "Les clients de Purple Stone Rooms"
+      community1: |
+        Nos clients sont jeunes et ont entre 20 et 30 ans.
+        La plupart d'entre eux viennent de différents pays d'Europe et viennent à Londres pour travailler, étudier, approfondir leur anglais et vivre une nouvelle expérience dans l'une des plus grande et des plus importantes villes du monde.
+
+      communitytit2: "De quels pays viennent nos locataires?"
+      community2: |
+        La plupart de nos locataires sont originaires d'Europe et la majorité viennent de Hollande, d' Italie, d' Espagne, de France, du Portugal, de Belgique et du Royaume-uni.
+        Purple Stone Rooms offre aussi l'acompagnement de l'inscription à l'université des personnes arrivant à Londres et originaires d'Afrique du sud, USA, Canada, Corée du Sud, Japon et Chine.
+
+      communitytit3: "Quels sont nos objectifs?"
+      community3: |
+        L'objectif principal des locataires de Purple Stone Rooms est d'apprendre ou d'approfondir leur niveau d'anglais.
+        Notre équipe essaye de mélanger différentes nationalités dans chaque logement. De cette façon, les locataires ont la possibilité d'approfondir leur anglais en le pratiquant directement depuis chez eux.
+        Bien évidemment, tout dépend de vos disponibilités. Vous aider à vivre dans un environnement amical et confortable est l'un des points les plus importants de Purple Stone Room.
+
+      communitytit4: "Réseaux sociaux"
+      community4: |
+        La communauté Purple Stone Rooms (incluants les ex et actuels locataires), reste en contact à travers les réseaux sociaux et la page de Purple Stone Room.
+        Les locataires sont les bienvenus pour partager leurs photos et vidéos sur nos pages.
+        Vous pouvez partager vos expériences ainsi que vos soirées sur les pages de nos différents réseaux sociaux: Facebook / Twitter / YouTube / et notre blog. Mr Herades Sardinas (Harry) Directeur Général de Purple Stone Rooms a réellement apprécié l'aide et la colaboration des anciens et actuels locataires dans la création du site internet. 
+
+      communitytit4: "La ville de Londres"
+      community4: |
+        Buckingham Palace, London Eyes, Le quartiers des théâtres et les célèbres quartiers des écrivains changent de peau pour devenir des quartiers musicaux divers avec le fameux marché de Portobello (Portobello Market), camden town et Brick Lane; La gallerie Nationale (The National Gallery) et le Tate Modern (Musée d'Art comptemporain).
+        L'atmosphère internationale de Londres est à son apogée en juillet avec une population d'environs 10 millions d' habitants dans la paix et la cohabitation de différentes cultures. Ce qui fait de Londres un lieu différents des autres ville d'Europe avec son caractère alternatif.
+        Du point de vue architectural, la ville est un mélange d'architecture traditionnelle, inovante et révolutionaire comme The loyd's building ou The Gerkin crées par les architectes Richard Rogers et Norman Foster.
+
 
